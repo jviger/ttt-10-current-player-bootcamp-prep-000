@@ -12,9 +12,10 @@ end
 
 def current_player()
   turn = turn_count()
-  if turn % 2 == 0 
+  if turn == 0 || turn % 2 != 0
+    player = "X"
+ else 
     player = "O"
-  else player = "X"
   end
 return player
   
