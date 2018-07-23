@@ -1,6 +1,7 @@
 def turn_count(board)
   
-  board.each
+  board.each do |square|
+    
   
 end
 
