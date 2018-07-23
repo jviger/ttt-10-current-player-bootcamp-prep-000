@@ -4,6 +4,7 @@ def turn_count(board)
     if square == " "
       turn += 1 
     end
+  end
   return turn
 end
 
